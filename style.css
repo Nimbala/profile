@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+body {
+  font-family: 'Righteous', cursive;
+  background-color: 8b2f97;
+}
+
+h1 {
+  color: #12CAD6;
+  font-family: 'Righteous', cursive;
+  font-size: 62px;
+}
+
+h2{
+  color: #12CAD6;
+  font-family: 'Righteous', cursive;
+  font-size: 43px;
+
+}
+
+ p {
+  color: #12CAD6;
+  font-family: 'Righteous', cursive;
+  font-size: 28px;
+ }
+
+ div {
+  width: 600px;
+  margin: 0 auto 24px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 60px rgba(10,10,10, 0.8);
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.first-box {
+color: e4f9ff;
+font-size: 20px;
+background-image: url("images/galaxy.jpg");
+width: 600px;
+margin: 0 auto 40px auto;
+padding: 46px;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0px 10px 60px rgba(10,10,10, 0.8);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+.area {
+  text-align: center;
+  font-size: 3em;;
+  color: #fff;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+.fab {
+  font-size: 60px;
+  margin: 0 24px;
+  color: pink;
+}
