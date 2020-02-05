@@ -1,44 +1,119 @@
-<html>
 
-<head>
-
-  <title>You lookin at me?!</title>
-    <meta name="description" content="Some info about Naomi">
-    <meta charset="utf-8">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
- <div class="first-box" id="header">
-  <h1 class="area">💫NAOMI💫</h1>
-
-  <img src="images/Nimms.jpg" alt="psychedelic pic of my face melting!">
-  <p> I think I may be a programmer....</p>
-  <a class="btn" href="#" target="_blank">Check me out</a>
-
-</div>
-
-  <div>
-      <h2>Gin</h2>
-      <p>I love gin.</p>
-    </div>
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
 
-    <div>
-      <h2>Follow me</h2>
-      <ul>
-        <li><a href="https://www.facebook.com/nimbalabala"><i class="fab fa-facebook"></i></a></li>
-
-        <li><a href="https://www.instagram.com/nimmsfaine/"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-    </div>
+body {
+  font-family: 'Righteous', cursive;
+  background-color: #8b2f97;
+  margin: 0;
+  padding: 0;
+}
 
 
+h1 {
+font-size: 60px;
+font-family: 'Righteous', cursive;
 
+}
 
-  </body>
+h2{
+  color: #12CAD6;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
 
+}
 
-</html>
+ p {
+  color: #12CAD6;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+ }
+
+ .first-box {
+  width: 800px;
+  height: 550px;
+  font-size: 16px;
+  background-image: url(images/galaxy.jpg);
+  margin: 20px auto 40px auto;
+  padding: 46px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 60px rgba(10,10,10, 0.8)
+
+}
+.first-box:hover .btn {
+  opacity: 1;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.area {
+  text-align: center;
+  /*padding-right: 8px;*/
+  color: #fff;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+.btn {
+  background-color: #dab8f3;
+  color: #633A82;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: #fd2eb3;
+}
+
+.gin, .social {
+  width: 400px;
+  margin: 100px auto 24px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 60px rgba(10,10,10, 0.8);
+}
+
+.fab {
+  font-size: 60px;
+  margin: 0 24px;
+  color: pink;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
